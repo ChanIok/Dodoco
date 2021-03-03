@@ -52,3 +52,11 @@ fs.readFile(path.resolve(__dirname, './app.asar'), function (err, res) {
           })
     }
 })
+
+// // 刷新缓存
+//  https://purge.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources
+
+// https://cdn.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources/latest.json
+
+// https://purge.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources/app.asar.gz
+// https://purge.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources/latest.json

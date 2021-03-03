@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/ChanIok/Dodoco#readme",
   "dependencies": {
+    "axios": "^0.21.1",
     "crypto": "^1.0.1"
   }
 }
