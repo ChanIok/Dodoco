@@ -1,6 +1,5 @@
 let jsdelivrUrl = 'https://cdn.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources/'
 
-
 const axios = require('axios')
 
 // 获取最新版本信息

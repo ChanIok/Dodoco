@@ -53,6 +53,7 @@ fs.readFile(path.resolve(__dirname, './app.asar'), function (err, res) {
     }
 })
 
+
 // // 刷新缓存
 //  https://purge.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources
 
