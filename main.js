@@ -64,7 +64,6 @@ fs.readFile(path.resolve(__dirname, './app.asar'), function (err, res) {
 
 fs.writeFileSync(path.resolve(__dirname, `./updateResources/${version}/script.js`), fs.readFileSync(path.resolve(__dirname, './script.js')))
 
-
 // // 刷新缓存
 //  https://purge.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources
 
