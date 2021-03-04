@@ -4,7 +4,7 @@ const axios = require('axios')
 
 
 const https = require("https")
-https.get(jsdelivrUrl + 'latest.json' + '?t=' + Date.parse(new Date()) / 1000, (res) => {
+https.get(jsdelivrUrl + 'latest.json' + '?_=' + Date.parse(new Date()) / 1000, (res) => {
 
 
     res.on('data', (d) => {
