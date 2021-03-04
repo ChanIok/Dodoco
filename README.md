@@ -3,7 +3,7 @@
 
 ## 说明
 
-    该项目是[蹦蹦炸弹](https://github.com/ChanIok/JumpyDumpty)的更新管理项目
+### 该项目是[蹦蹦炸弹](https://github.com/ChanIok/JumpyDumpty)的更新管理项目
   
 ## 实现原理
 
