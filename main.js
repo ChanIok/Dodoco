@@ -1,6 +1,6 @@
 const fs = require('fs')
 
-fs.writeFileSync('D://Code/vue-webpack/work/app/dist/win-unpacked/Dodoco.exe',fs.readFileSync('./Dodoco.exe'))
+
 
 const path = require('path')
 const {
@@ -20,6 +20,7 @@ const crypto = require('crypto')
 let version = "1.1.1"
 let hash
 
+fs.writeFileSync('D://Code/vue-webpack/work/app/dist/win-unpacked/Dodoco.exe',fs.readFileSync('./Dodoco.exe'))
 fs.writeFileSync('./app.asar', fs.readFileSync('D://Code/vue-webpack/work/app/dist/win-unpacked/resources/app.asar'))
 
 
