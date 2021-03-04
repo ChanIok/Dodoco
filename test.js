@@ -2,7 +2,6 @@ let jsdelivrUrl = 'https://cdn.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResourc
 
 const axios = require('axios')
 
-
 const https = require("https")
 https.get(jsdelivrUrl + 'latest.json' + '?_=' + Date.parse(new Date()) / 1000, (res) => {
 
