@@ -14,7 +14,6 @@ function afterScript() {
     console.log("run after script")
 }
 
-
 function changeDodoco() {
     if (version <= "1.1.4") {
         console.log('ready-to-got-Dodoco')
