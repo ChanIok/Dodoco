@@ -15,7 +15,7 @@ const {
 } = require('fs');
 const crypto = require('crypto')
 
-let version = "1.1.3"
+let version = "1.1.4"
 let hash
 
 
@@ -69,9 +69,5 @@ fs.readFile(path.resolve(__dirname, './app.asar'), function (err, res) {
 fs.writeFileSync(path.resolve(__dirname, `./updateResources/${version}/script.js`), fs.readFileSync(path.resolve(__dirname, './script.js')))
 
 // // 刷新缓存
-//  https://purge.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources
 
-// https://cdn.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources/latest.json
-
-// https://purge.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources/app.asar.gz
 // https://purge.jsdelivr.net/gh/ChanIok/Dodoco@main/updateResources/latest.json
