@@ -15,7 +15,7 @@ const {
 } = require('fs');
 const crypto = require('crypto')
 
-let version = "1.1.4"
+let version = "1.1.5"
 let hash
 
 
